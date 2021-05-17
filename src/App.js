@@ -4,6 +4,7 @@ import './App.css'
 import CakeContainer from './components/CakeContainer'
 import HooksCakeContainer from './components/HooksCakeContainer'
 import HooksSweetContainer from './components/HooksSweetContainer'
+import ItemContainer from './components/ItemContainer'
 import SweetContainer from './components/SweetContainer'
 import Store from './redux/Store'
 
@@ -16,7 +17,9 @@ const App = () => {
         <SweetContainer />
         <p>React Redux with hooks example</p>
         <HooksCakeContainer />
-        <HooksSweetContainer/>
+        <HooksSweetContainer />
+        <p>Advance Uses of maps</p>
+        <ItemContainer cake/>
       </div>
     </Provider>
   )
