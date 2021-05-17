@@ -5,7 +5,7 @@ import {buySweet} from '../redux/Sweet/SweetAction'
 const SweetContainer = (props) => {
  return (
   <div>
-   <h3>Number Of Sweets</h3>
+   <h3>Num Of Sweets</h3>
    <h1>{props.numOfSweets}</h1>
    <button onClick={props.buySweet}>Buy Sweet</button>
   </div>
