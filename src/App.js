@@ -2,10 +2,12 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import './App.css'
 import CakeContainer from './components/CakeContainer'
+import CakePayload from './components/CakePayload'
 import HooksCakeContainer from './components/HooksCakeContainer'
 import HooksSweetContainer from './components/HooksSweetContainer'
 import ItemContainer from './components/ItemContainer'
 import SweetContainer from './components/SweetContainer'
+import SweetPayload from './components/SweetPayload'
 import Store from './redux/Store'
 
 const App = () => {
@@ -19,7 +21,10 @@ const App = () => {
         <HooksCakeContainer />
         <HooksSweetContainer />
         <p>Advance Uses of maps</p>
-        <ItemContainer cake/>
+        <ItemContainer cake />
+        <p>Example of Payload</p>
+        <CakePayload />
+        <SweetPayload/>
       </div>
     </Provider>
   )
