@@ -8,13 +8,15 @@ import HooksSweetContainer from './components/HooksSweetContainer'
 import ItemContainer from './components/ItemContainer'
 import SweetContainer from './components/SweetContainer'
 import SweetPayload from './components/SweetPayload'
+import UserContainer from './components/UserContainer'
 import Store from './redux/Store'
 
 const App = () => {
   return (
     <Provider store={Store}>
       <div className="App">
-        <p>Just React Redux Exapmle</p>
+        <UserContainer/>
+        {/* <p>Just React Redux Exapmle</p>
         <CakeContainer />
         <SweetContainer />
         <p>React Redux with hooks example</p>
@@ -24,7 +26,7 @@ const App = () => {
         <ItemContainer cake />
         <p>Example of Payload</p>
         <CakePayload />
-        <SweetPayload/>
+        <SweetPayload/> */}
       </div>
     </Provider>
   )
